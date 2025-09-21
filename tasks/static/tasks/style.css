@@ -1,0 +1,86 @@
+/* Global layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f8;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Container */
+.container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Add form */
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Task items */
+.task {
+    background: #fafafa;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+}
+
+.task span {
+    flex: 1;
+    word-break: break-word;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #777;
+}
+
+/* Links */
+a.action {
+    margin-left: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+a.action:hover {
+    text-decoration: underline;
+}
